@@ -1,0 +1,7 @@
+my_string = input("Введите строчку: ")
+print("Нижний регистр" ,my_string.lower() )
+print("Верхнй регистр" ,my_string.upper() )
+a = input("Введите символ которых ходите удалить (если пробел вбейте пробел): ")
+print("Обнавленная строка: ", my_string.replace(a,""))
+print("Первый символ: ", my_string[0])
+print("Последний символ: ", my_string[-1])
