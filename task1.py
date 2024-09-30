@@ -15,6 +15,10 @@ print(a == b)
 #4th program
 a = str(123.456)
 print(a[4])
-a = float(a)
+a = float(123.456)
 a = a*10
 print(a)
+#  Дополнение к заданию
+b = int(a)
+print(b%10)
+
